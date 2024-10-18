@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main_nav_div {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.div_nav_text {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#internet {
+    width: 30px;
+    height: 30px;
+}
+
+#select {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    transition: 0.5s ease-in-out;
+    font-family: "Inter", sans-serif;
+}
+
+#select:hover {
+    border: 2px solid #F1A900;
+    border-radius: 10px;
+}
+
+#play_nav {
+    width: 100px;
+    height: 40px;
+    background-color: #F1A900;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+
+.div_ul {
+    width: 100%;
+    height: 70px;
+    background-color: #222222;
+}
+
+#first_ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    list-style: none;
+}
+
+li a {
+
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+#Info {
+    background-color: #222222;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border: none;
+}
+
+
+
+
+
+.main_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding-top: 300px;
+}
+
+.btn1 {
+    width: 235px;
+    background-color: #F1A900;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    transition: 0.5s ease-in-out;
+    border-radius: 4px;
+    height: 60px;
+
+}
+
+.btn1:hover {
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.btn2 {
+    width: 235px;
+    height: 60px;
+    background-color: #F1A900;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    transition: 0.5s ease-in-out;
+    border-radius: 4px;
+}
+
+.btn2:hover {
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.main_box2 {
+    width: 966px;
+    margin: 31px 0;
+    margin-left: 100px;
+    border-radius: 10px;
+    padding: 31px 0;
+    background-color: rgba(255, 166, 0, 0.425);
+    /* color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: center; */
+}
+
+.title_h1 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#second_bg {
+    height: 700px;
+    background-image: url(./images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fot_div {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.social {
+    display: flex;
+    gap: 70px;
+}
+
+
+/* #telegram:hover{
+    transition: 0.5s ease-in-out;
+    border: 2px solid white;
+    border-radius: 50%;
+} */
